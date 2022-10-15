@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+header{
+   
+   align-content: center;
+    text-align: center;
+    background-color: aqua;
+   font-style: italic;
+    border-width: 2px;
+    border-bottom: 4px solid yellow;
+    
+}
+body{
+   margin: 0;
+   font-family: sans-serif;
+   background-color: blueviolet;
+}
+.gallery{
+    margin: auto;
+    width: 500px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+    border-radius: 5px;
+    
+}
+img{
+    width: 400px;
+    border-radius: 10px;
+    padding: 4px;
+}
