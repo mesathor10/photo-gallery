@@ -3,22 +3,19 @@
 }
 header{
    
-   align-content: center;
+   border: 4px double rgb(0, 0, 0);
     text-align: center;
-    padding-top: 5px;
-    background-color: rgb(241, 255, 159);
-   font-style: italic;
-    border-width: 2px;
-    margin-left: 30%;
-    width: 600px;
-    border-bottom: 4px double rgb(0, 0, 0);
-    border-left:4px solid rgb(201, 255, 4);
-    border-right: 4px solid rgb(0, 0, 0);
+    padding: 5px;
+   background-image: url("https://getwallpapers.com/wallpaper/full/3/2/3/168510.jpg");
+   width: 600px;
+   display: flex;
+   justify-content: center;
+    margin: auto;
 }
 body{
    margin: 0;
-   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   background-color: rgb(184, 218, 255);
+   font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: rgb(13, 48, 88);
    
 }
 .gallery{
@@ -27,14 +24,16 @@ body{
    display: inline-flex;
    flex-direction: row;
    flex-wrap:wrap;
-    border-radius: 5px;
+   justify-content: center;
+   text-align: center;
+    
     
 }
 h1{
-    color: rgb(20, 255, 31);
+    color: rgb(247, 248, 248);
 }
 img{
-    width: 400px;
+    width: 500px;
     border-radius: 10px;
     padding: 15px;
 }
